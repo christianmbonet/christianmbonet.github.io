@@ -1,19 +1,12 @@
-/* a:active {
-            color: white;
-        }
-a:visited {
-        color: white;
-        } */
-
-
 a {
-    color: lightgreen;
+    color: lightcoral;
     text-decoration: none;
     font-size: 18px;
+    font-weight: bolder;
     }
 
 a:last-child {
-          color: red;
+          color: lightpink;
         }
 
 body {
@@ -21,10 +14,37 @@ body {
     background-color: black;
 }
 
+p.intro {
+    color: lightskyblue;
+}
+
+p {
+    color:lightseagreen;
+}
+
+p.skills {
+    color: goldenrod;
+}
+
+span {
+    color: hotpink;
+}
+
 h1 {
-    color: lightcyan;
+    color: lightsteelblue;
+    font-weight: bolder;
 }
 
 h2 {
-    color: lightcyan;
+    color: white;
+    font-weight: bolder;
+}
+
+div {
+    margin: 10px;
+}
+
+img {
+    height: 250px;
+    width: 250px;
 }
