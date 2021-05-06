@@ -1,0 +1,30 @@
+/* a:active {
+            color: white;
+        }
+a:visited {
+        color: white;
+        } */
+
+
+a {
+    color: lightgreen;
+    text-decoration: none;
+    font-size: 18px;
+    }
+
+a:last-child {
+          color: red;
+        }
+
+body {
+    color: white;
+    background-color: black;
+}
+
+h1 {
+    color: lightcyan;
+}
+
+h2 {
+    color: lightcyan;
+}
