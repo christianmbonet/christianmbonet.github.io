@@ -31,7 +31,7 @@ span {
 }
 
 h1 {
-    color: lightsteelblue;
+    color: lightskyblue;
     font-weight: bolder;
 }
 
@@ -47,4 +47,9 @@ div {
 img {
     height: 250px;
     width: 250px;
+}
+
+.dates {
+    color: lightsalmon;
+    font-weight: lighter;
 }
