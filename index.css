@@ -5,6 +5,10 @@ a {
     font-weight: bolder;
     }
 
+.headerBox {
+    display: flex;
+}
+
 a:last-child {
           color: lightpink;
         }
