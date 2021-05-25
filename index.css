@@ -15,7 +15,7 @@ body {
 }
 
 p.intro {
-  color: black;
+  color: darkslategrey;
   font-weight: bolder;
   margin: 0px;
 }
@@ -33,7 +33,7 @@ span {
 }
 
 h1 {
-    color: darkslategrey;
+    color: grey;
     font-weight: bolder;
 }
 
@@ -58,6 +58,7 @@ img {
 
 .headerBox {
     display: flex;
+    justify-content: space-between;
 }
 
 .greeting {
@@ -65,11 +66,10 @@ img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: lightgoldenrodyellow;
-    border-radius: 25px;
+    background-color: #dedbd2;
+    border-radius: 10px;
     height: 250px;
     width: 500px;
-    border: lime solid 5px;
 }
 
 .greetingHello {
@@ -78,6 +78,53 @@ img {
 }
 
 .imageBox {
-    padding-top: 0px;;
+    padding-top: 0px;
 }
 
+.projectsContainer {
+    display: flex;
+    flex-direction: column;
+    background-color: #dedbd2;
+    border-radius: 10px;
+}
+
+.projectsContainerText {
+    margin: 0px;
+    padding: 25px;
+}
+
+.experienceContainer {
+    display: flex;
+    flex-direction: column;
+    background-color: #dedbd2;
+    border-radius: 10px;
+}
+
+.experienceContainerText {
+    margin: 0px;
+    padding: 25px;
+}
+
+.educationContainer {
+    display: flex;
+    flex-direction: column;
+    background-color: #dedbd2;
+    border-radius: 10px;
+}
+
+.educationContainerText {
+    margin: 0px;
+    padding: 25px;
+}
+
+.skillsContainer {
+    display: flex;
+    flex-direction: column;
+    background-color: #dedbd2;
+    border-radius: 10px;
+}
+
+.skillsContainerText {
+    margin: 0px;
+    padding: 25px;
+}
