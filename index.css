@@ -5,55 +5,79 @@ a {
     font-weight: bolder;
     }
 
-.headerBox {
-    display: flex;
-}
-
 a:last-child {
-          color: lightpink;
-        }
+    color: lightpink;
+      }
 
 body {
-    color: white;
-    background-color: black;
+  color: white;
+  background-color: black;
 }
 
 p.intro {
-    color: lightskyblue;
+  color: black;
+  font-weight: bolder;
+  margin: 0px;
 }
 
 p {
-    color:lightseagreen;
+  color:lightseagreen;
 }
 
 p.skills {
-    color: goldenrod;
+  color: goldenrod;
 }
 
 span {
-    color: hotpink;
+  color: hotpink;
 }
 
 h1 {
-    color: lightskyblue;
+    color: darkslategrey;
     font-weight: bolder;
 }
 
 h2 {
-    color: white;
-    font-weight: bolder;
+  color: white;
+  font-weight: bolder;
 }
 
 div {
-    margin: 10px;
+  margin: 10px;
 }
 
 img {
-    height: 250px;
-    width: 250px;
+  height: 250px;
+  width: 250px;
 }
 
 .dates {
-    color: lightsalmon;
-    font-weight: lighter;
+  color: lightsalmon;
+  font-weight: lighter;
 }
+
+.headerBox {
+    display: flex;
+}
+
+.greeting {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgoldenrodyellow;
+    border-radius: 25px;
+    height: 250px;
+    width: 500px;
+    border: lime solid 5px;
+}
+
+.greetingHello {
+    margin: 0px;
+    padding: 10px;
+}
+
+.imageBox {
+    padding-top: 0px;;
+}
+
